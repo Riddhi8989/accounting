@@ -23,7 +23,7 @@ function App() {
 
         {/* Protected Routes */}
         <Route
-          path="./pages/dashboard"
+          path="./src/pages/dashboard"
           element={
             isLoggedIn ? (
               <Dashboard />
@@ -34,7 +34,7 @@ function App() {
         />
 
         <Route
-          path="./pages/sales"
+          path="./src/pages/sales"
           element={
             isLoggedIn ? (
               <Sales />
@@ -45,7 +45,7 @@ function App() {
         />
 
         <Route
-          path="./pages/purchase"
+          path="./src/pages/purchase"
           element={
             isLoggedIn ? (
               <Purchase />
@@ -56,7 +56,7 @@ function App() {
         />
 
         <Route
-          path="./pages/invoice"
+          path="./src/pages/invoice"
           element={
             isLoggedIn ? (
               <Invoice />
